@@ -2,9 +2,7 @@ import {
   CodeXmlIcon,
   FolderGit2Icon,
   HomeIcon,
-  LocateIcon,
   MapPinIcon,
-  PersonStandingIcon,
   UserIcon,
 } from "lucide-react";
 
