@@ -6,6 +6,7 @@ import {
   UserIcon,
 } from "lucide-react";
 
+
 export default function NavBar() {
   return (
     <>

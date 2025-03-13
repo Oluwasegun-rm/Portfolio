@@ -10,7 +10,7 @@ export function Home() {
 
       <div className="">
         <p>
-          Hi I am Oluwasegun Soji-John, a Software Engineer with interests in Data Science
+          Hi I am <strong>Oluwasegun Soji-John</strong>, a Software Engineer with interests in Data Science
         </p>
       </div>
 
