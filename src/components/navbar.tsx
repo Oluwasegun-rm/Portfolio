@@ -30,13 +30,13 @@ export default function NavBar() {
               </a>
             </li>
             <li>
-              <a href="/">
+              <a href="/skills">
                 <CodeXmlIcon size={15} />
                 Skills
               </a>
             </li>
             <li>
-              <a href="/">
+              <a href="/projects">
                 <FolderGit2Icon size={15} />
                 Projects
               </a>
