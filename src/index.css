@@ -126,6 +126,26 @@ nav{
   word-spacing: 5px;
   line-height: 1.5;
 }
+.skills-container{
+  margin: 75px;
+}
+.items{
+  list-style-type: none;
+  display: flex;
+  gap: 2rem;
+  justify-content: left;
+  padding-left: 0px;
+}
+.items-span{
+  background-color: black;
+  border-radius: 2rem;
+  color: white;
+  padding: 8px 12px;
+}
+.category-name{
+  font-weight: 200;
+}
+
 /* .page-navigation li{
   padding: 2px 2px;
 } */
