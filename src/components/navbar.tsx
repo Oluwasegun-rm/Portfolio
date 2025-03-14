@@ -6,46 +6,54 @@ import {
   UserIcon,
 } from "lucide-react";
 
-
 export default function NavBar() {
   return (
     <>
       <nav>
-        <div>
-          <p>Oluwasegun Soji-John</p>
+        <div className="navbar-name">
+          <p>
+            <b>Oluwasegun Soji-John</b>
+          </p>
           <p>Software Engineer/Data Scientist</p>
         </div>
-        <div>
-          <ul>
-            <li>
+        <div className="page-container">
+          <ul className="page-navigation">
+            <li className="page-button">
               <a href="/">
                 <HomeIcon size={15} />
-                Home
+                <p>Home</p>
               </a>
             </li>
+
             <li>
-              <a href="/about">
-                <UserIcon size={15} />
-                About
-              </a>
+              <div className="page-button">
+                <a href="/about">
+                  <UserIcon size={15} />
+                  <p>About</p>
+                </a>
+              </div>
             </li>
             <li>
-              <a href="/skills">
-                <CodeXmlIcon size={15} />
-                Skills
-              </a>
+              <div className="page-button">
+                <a href="/skills">
+                  <CodeXmlIcon size={15} />
+                  <p>Skills</p>
+                </a>
+              </div>
             </li>
             <li>
-              <a href="/projects">
-                <FolderGit2Icon size={15} />
-                Projects
-              </a>
+              <div className="page-button">
+                <a href="/projects">
+                  <FolderGit2Icon size={15} />
+                  <p>Projects</p>
+                </a>
+              </div>
             </li>
           </ul>
         </div>
-        <div>
-          <MapPinIcon size={17} />
-          Maryland, USA
+        <div className="location">
+          <MapPinIcon size={20} />
+          <p>Maryland, USA</p>
         </div>
       </nav>
     </>

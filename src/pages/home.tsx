@@ -3,18 +3,18 @@ import { Link2Icon, } from "lucide-react";
 export function Home() {
   return (
     <>
-    <div>
-      <div className="">
-
+    <div className="home-container">
+      <div className="image-container">
+        <img src="/assets/my-notion-face-portrait.png" alt="sj" className="image" />
       </div>
 
       <div className="">
-        <p>
-          Hi I am <strong>Oluwasegun Soji-John</strong>, a Software Engineer with interests in Data Science
+        <p className="intro-paragraph">
+          Hi I am Oluwasegun Soji-John, a Software Engineer with interests in Data Science.
         </p>
       </div>
 
-      <div className="">
+      <div className="areas">
         <span>
           Backend
         </span>
@@ -32,13 +32,11 @@ export function Home() {
         </span>
       </div>
 
-      <div className="">
-        <a href="" className="">
+      <div className="connect-container">
+        <a href="" className="connect-link">
           <Link2Icon size={20}/>
-          Connect
-        </a>
-        <a href="" className="">
-          See My Work
+          <span>Connect With Me</span>
+          
         </a>
       </div>
 
