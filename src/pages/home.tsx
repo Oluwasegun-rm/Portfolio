@@ -1,46 +1,66 @@
-import { Link2Icon, } from "lucide-react";
-
+import { Link2Icon } from "lucide-react";
+import { motion } from "framer-motion";
 export function Home() {
+  const container = {
+    hidden: { opacity: 1, scale: 0 },
+    visible: {
+      opacity: 1,
+      scale: 1,
+      transition: {
+        delayChildren: 0.5,
+        staggerChildren: 0.3,
+      },
+    },
+  };
+
+  const item = {
+    hidden: { y: 20, opacity: 0 },
+    visible: {
+      y: 0,
+      opacity: 1,
+    },
+  };
+
   return (
     <>
-    <div className="home-container">
-      <div className="image-container">
-        <img src="/assets/my-notion-face-portrait.png" alt="sj" className="image" />
-      </div>
+      <motion.div
+        className="home-container"
+        variants={container}
+        initial="hidden"
+        animate="visible"
+      >
+        <motion.div className="image-container" variants={item}>
+          <img
+            src="/assets/my-notion-face-portrait.png"
+            alt="sj"
+            className="image"
+          />
+        </motion.div>
 
-      <div className="">
-        <p className="intro-paragraph">
-          Hi I am Oluwasegun Soji-John, a Software Engineer with interests in Data Science.
-        </p>
-      </div>
+        <motion.div variants={item} className="">
+          <p className="intro-paragraph">
+            Hi I am Oluwasegun Soji-John, a Software Engineer with interests in
+            Data Science.
+          </p>
+        </motion.div>
 
-      <div className="areas">
-        <span>
-          Backend
-        </span>
+        <motion.div variants={item} className="areas">
+          <span>Backend</span>
 
-        <span>
-          Frontend
-        </span>
+          <span>Frontend</span>
 
-        <span>
-          Data Science
-        </span>
-        
-        <span>
-          Machine Learning
-        </span>
-      </div>
+          <span>Data Science</span>
 
-      <div className="connect-container">
-        <a href="" className="connect-link">
-          <Link2Icon size={20}/>
-          <span>Connect With Me</span>
-          
-        </a>
-      </div>
+          <span>Machine Learning</span>
+        </motion.div>
 
-    </div>
+        <motion.div variants={item} className="connect-container">
+          <a href="" className="connect-link">
+            <Link2Icon size={20} />
+            <span>Connect With Me</span>
+          </a>
+        </motion.div>
+      </motion.div>
     </>
-  )
+  );
 }

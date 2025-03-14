@@ -1,7 +1,7 @@
 export default function About() {
   return (
     <>
-      <div>
+      <div className="about-container">
         <div className="Intro">
           <h2>
             Hey, I am <strong>Oluwasegun Soji-John</strong>
