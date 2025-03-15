@@ -52,7 +52,7 @@ export default function NavBar() {
           </ul>
         </div>
         <div className="location">
-          <MapPinIcon size={20} />
+          <MapPinIcon size={25} />
           <p>Maryland, USA</p>
         </div>
       </nav>

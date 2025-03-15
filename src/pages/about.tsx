@@ -3,10 +3,7 @@ export default function About() {
     <>
       <div className="about-container">
         <div className="Intro">
-          <h2>
-            Hey, I am <strong>Oluwasegun Soji-John</strong>
-          </h2>
-          <h2>About Me</h2>
+          <h2 className="text-theme">About Me</h2>
           <p>
             I'm a software engineering and data science enthusiast. Currently, I
             am a computer science major at Morgan State Univeristy. My primary
@@ -19,7 +16,7 @@ export default function About() {
         </div>
 
         <div className="What I do">
-          <h2>What I do</h2>
+          <h2 className="text-theme">What I do</h2>
           <p>
             I specialize in developing robust backend systems and APIs using
             tools like Python, JavaScript, TypeScript, and FastAPI. I also enjoy
@@ -38,7 +35,7 @@ export default function About() {
         </div>
 
         <div className="Experience">
-          <h2>Experience</h2>
+          <h2 className="text-theme">Experience</h2>
           <p className="role-description">
             Throughout my academic journey, I've had the opportunity to work on
             some exciting projects. One of my key projects involved developing a
@@ -59,7 +56,7 @@ export default function About() {
         </div>
 
         <div className="">
-          <h2>What Drives Me</h2>
+          <h2 className="text-theme">What Drives Me</h2>
           <p>
             Technology has the power to change the world, and that's what drives
             me every day. I thrive on problem-solving and learning new
@@ -70,21 +67,21 @@ export default function About() {
           </p>
         </div>
         <div className="">
-          <h2>Let's Connect</h2>
+          <h2 className="text-theme">Let's Connect</h2>
           <p>
             Feel free to reach out if you're interested in discussing
             collaboration, exciting projects, or new opportunities! I'm always
             open to meeting like-minded individuals and exploring ways we can
             leverage technology to create positive change. You can connect with
             me on
-            <span>
+            <div className="linkedin-link">
               <a
                 href="https://www.linkedin.com/in/oluwasegun-soji-john/ "
                 target="_blank"
               >
                 LinkedIn
               </a>
-            </span>
+            </div>
             or check out my work on
             <a href="https://github.com/Oluwasegun-rm " target="_blank">
               Github

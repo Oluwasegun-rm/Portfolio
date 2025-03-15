@@ -55,7 +55,7 @@ export function Home() {
         </motion.div>
 
         <motion.div variants={item} className="connect-container">
-          <a href="" className="connect-link">
+          <a href="https://www.linkedin.com/in/oluwasegun-soji-john/" target = "_blank" className="connect-link">
             <Link2Icon size={20} />
             <span>Connect With Me</span>
           </a>
