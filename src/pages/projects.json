@@ -15,7 +15,7 @@
     "title": "Semantic Knowledge Graph for Coronary Heart Disease",
     "tech-stack": "Python, Pandas, OpenAi API, Seaborn",
     "description": "This project focused on creating a semantic knowledge graph that integrates structured mortality data and unstructured clinical narratives to provide deeper insights into Coronary Heart Disease. We employed advanced natural language processing (NLP) techniques to extract meaningful patterns and trends from clinical data, contributing to more effective public health surveillance. I worked on data integration and semantic querying, helping to merge various data sources and ensure accurate analysis.",
-    "date": "Novemeber 2024"
+    "date": "November 2024"
   },
   {
     "title": "Personal Finance Tracker",

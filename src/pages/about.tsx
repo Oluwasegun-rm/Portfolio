@@ -73,17 +73,7 @@ export default function About() {
             collaboration, exciting projects, or new opportunities! I'm always
             open to meeting like-minded individuals and exploring ways we can
             leverage technology to create positive change. You can connect with
-            me on
-            <div className="linkedin-link">
-              <a
-                href="https://www.linkedin.com/in/oluwasegun-soji-john/ "
-                target="_blank"
-              >
-                LinkedIn
-              </a>
-            </div>
-            or check out my work on
-            <a href="https://github.com/Oluwasegun-rm " target="_blank">
+            me on <a href="https://www.linkedin.com/in/oluwasegun-soji-john/ "target="_blank" className="linkedin-link">LinkedIn</a> or check out my work on <a href="https://github.com/Oluwasegun-rm " target="_blank">
               Github
             </a>
             , or send me an email at email. Thanks for stopping by! 🚀

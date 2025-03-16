@@ -214,3 +214,25 @@ nav{
 .text-theme{
   font-weight: 600;
 }
+
+.typing-container {
+  font-size: 24px;
+  font-family: monospace;
+  white-space: nowrap;
+  overflow: hidden;
+  border-right: 3px solid black; /* Cursor effect */
+  width: 0;
+  animation: typing 5s steps(100, end) forwards, blink 1s infinite;
+}
+
+@keyframes typing {
+  from { width: 0; }
+  to { width: 100%; }
+}
+
+@keyframes blink {
+  50% { border-color: transparent; }
+}
+.footer{
+  margin-bottom: 75px;
+}
