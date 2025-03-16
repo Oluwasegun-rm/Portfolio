@@ -6,24 +6,6 @@ import Skills from "./pages/skills";
 import Projects from "./pages/projects";
 import { motion } from "framer-motion";
 function App() {
-  const container = {
-    hidden: { opacity: 1, scale: 0 },
-    visible: {
-      opacity: 1,
-      scale: 1,
-      transition: {
-        delayChildren: 0.5,
-        staggerChildren: 0.3,
-      },
-    },
-  };
-  const item = {
-    hidden: { y: 20, opacity: 0 },
-    visible: {
-      y: 0,
-      opacity: 1,
-    },
-  };
   return (
     <>
       <NavBar />
