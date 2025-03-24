@@ -23,15 +23,15 @@ export default function Skills() {
           <h3 className="category-name">Languages</h3>
           <ul className="items">
             {arr1.map((skill, index) => (
-              <motion.span
+              <motion.li
                 initial={{ x: 100, opacity: 0 }} // Start off-screen to the right
                 animate={{ x: 0, opacity: 1 }} // Move to position
                 transition={{ duration: 1.5, delay: index * 0.2 }} // Staggered effect
                 className="items-span"
                 key={index}
               >
-                <li>{skill}</li>
-              </motion.span>
+                <span>{skill}</span>
+              </motion.li>
             ))}
           </ul>
         </div>

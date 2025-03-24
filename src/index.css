@@ -315,4 +315,8 @@ nav{
   .location{
     display: none;
   }
+  .items{
+    display: flex;
+    flex-wrap: wrap;
+  }
 }
