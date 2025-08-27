@@ -9,19 +9,19 @@
     "title": "Fathom",
     "tech-stack": "Python, Javascript, MongoDB, Fast API, Redis",
     "description": "Fathom is a web app that provides real-time transcriptions of lecture recordings using the Fast Whisper model. It generates searchable transcripts and extracts key points, making it easier for users to review and identify important content. I contributed to the backend development, integrating the Fast Whisper model and building the system to handle real-time transcription and data processing. Key Features: Real-Time Transcription, Key Point Extraction and Searchable Transcripts. Fathom aims to enhance the learning experience by providing quick and accessible lecture summaries.",
-    "date": "March 2025"
+    "date": "April 2025"
   },
   {
     "title": "Insight Journal",
     "tech-stack": "Next.js, Python, FastAPI, MongoDB",
     "description": "Insight Journal is a web application designed to help users capture, organize, and reflect on their daily thoughts and experiences. Built with Next.js for the frontend and FastAPI with MongoDB on the backend, the app provides a seamless experience for creating and managing journal entries. It includes features like rich-text editing, tagging for easy categorization, and data visualization to help users track patterns in their reflections over time. I was responsible for building the backend APIs, setting up the database, and collaborating on the frontend to deliver an intuitive and engaging journaling platform. Key Features: Journal Entry Creation, Tagging and Search, and Reflection Analytics.",
-    "date": "August 2024"
+    "date": "February 2025"
   },
   {
     "title": "Secure Share",
     "tech-stack": "Flask, JavaScript, WebRTC",
     "description": "Secure Share is a peer-to-peer web application that enables secure sharing of sensitive information, including passwords, API keys, and documents, directly between machines. Built with Flask for the backend and JavaScript with WebRTC for real-time communication, the app ensures encrypted data transfer without relying on external servers. I developed the backend to handle secure connections and integrated WebRTC for peer-to-peer communication, while also contributing to the frontend to provide a simple and intuitive interface. Key Features: Encrypted File and Secret Sharing, Real-Time Peer-to-Peer Transfer, and Support for Direct and Internet-Restricted Connections.",
-    "date": "June 2024"
+    "date": "January 2025"
   },
   {
     "title": "Semantic Knowledge Graph for Coronary Heart Disease",
