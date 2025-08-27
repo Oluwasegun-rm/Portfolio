@@ -1,8 +1,14 @@
 [
   {
+    "title": "Oracle Process Agent",
+    "tech-stack": "Oracle AI Agent Studio, Oracle Fusion API, Java, Oracle Fusion Middleware",
+    "description": "Fathom is a web app that provides real-time transcriptions of lecture recordings using the Fast Whisper model. It generates searchable transcripts and extracts key points, making it easier for users to review and identify important content. I contributed to the backend development, integrating the Fast Whisper model and building the system to handle real-time transcription and data processing. Key Features: Real-Time Transcription, Key Point Extraction and Searchable Transcripts. Fathom aims to enhance the learning experience by providing quick and accessible lecture summaries.",
+    "date": "May-August 2025"
+  },
+  {
     "title": "Fathom",
     "tech-stack": "Python, Javascript, MongoDB, Fast API, Redis",
-    "description": "Fathom is a web app that provides real-time transcriptions of lecture recordings using the Fast Whisper model. It generates searchable transcripts and extracts key points, making it easier for users to review and identify important content. I contributed to the backend development, integrating the Fast Whisper model and building the system to handle real-time transcription and data processing. Key Features: Real-Time Transcription, Key Point Extraction and Searchable Transcripts. Fathom aims to enhance the learning experience by providing quick and accessible lecture summaries.",
+    "description": "During my internship at Oracle, I designed and built an AI-powered assistant for the Oracle Enterprise Scheduler Service (ESS) in Oracle ERP. The assistant enabled natural language interaction with ESS, allowing users to launch jobs, query job statuses, and parse error logs through simple English commands. By integrating Oracle Fusion APIs with conversational AI, I streamlined a process that was previously complex and UI-heavy, making job scheduling more accessible and efficient for business users. Key Features: Natural Language Job Management, Error Log Parsing, and Performance Insights. This project highlighted the value of combining enterprise systems with AI to improve usability and efficiency.",
     "date": "February 2025"
   },
   {

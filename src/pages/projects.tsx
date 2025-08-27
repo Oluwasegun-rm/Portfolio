@@ -6,7 +6,7 @@ export default function Projects() {
         <h1>Projects</h1>
         <p>
           Welcome to my projects! Here, you can explore some of the work I've
-          done during my personal projects and research. These projects showcase
+          done during my internship at Oracle, my personal projects and research. These projects showcase
           my skills in software development, data science, and research, where
           I've focused on building scalable systems, analyzing complex data, and
           creating innovative solutions to real-world problems. Feel free to

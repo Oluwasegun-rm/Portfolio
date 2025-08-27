@@ -37,21 +37,28 @@ export default function About() {
         <div className="Experience">
           <h2 className="text-theme">Experience</h2>
           <p className="role-description">
-            Throughout my academic journey, I've had the opportunity to work on
-            some exciting projects. One of my key projects involved developing a
-            real-time lecture transcription tool, where I integrated the Fast
-            Whisper model for seamless speech-to-text conversion. Additionally,
-            I collaborated on a semantic knowledge graph project, focusing on
-            analyzing healthcare disparities by combining structured and
-            unstructured data to uncover patterns and insights. In addition to
-            my projects, I've also been involved in research. I worked on a
-            project aimed at geospatial analysis of health disparities in
-            healthcare deserts, where we analyzed data to identify trends and
-            correlations. I was also a part of a team developing a knowledge
-            graph for Coronary Heart Disease, combining structured mortality
-            data and clinical narratives to better understand health trends.
-            This interdisciplinary work merges health informatics, data science,
-            and natural language processing to improve public health insights.
+            During my time as a Software Engineer Intern at Oracle, I designed
+            and built an AI-powered agent for the Oracle Enterprise Scheduler
+            Service (ESS) in Oracle ERP. This project enabled natural language
+            interaction with ESS, allowing users to query job statuses, launch
+            jobs, and parse error logs through simple commands—removing the
+            complexity of navigating a dense enterprise UI. I worked with
+            Oracle's AI Agent Studio, Fusion APIs, and Python to deliver a
+            functional prototype that improved usability and provided
+            performance insights for business users. This experience deepened my
+            skills in enterprise API integration, conversational AI design, and
+            user-centric engineering. Beyond my internship, I co-created Fathom,
+            a full-stack web application that lets students upload lecture
+            recordings, generates real-time transcripts, and summarizes key
+            points. On the research side, I've worked on projects at the
+            intersection of health informatics and data science—including
+            building a semantic knowledge graph to analyze healthcare
+            disparities, conducting geospatial analysis of healthcare deserts,
+            and developing a knowledge graph for Coronary Heart Disease using
+            structured mortality data and clinical narratives. These projects
+            strengthened my ability to combine data science, natural language
+            processing, and software engineering to drive insights and
+            solutions.
           </p>
         </div>
 
@@ -73,7 +80,16 @@ export default function About() {
             collaboration, exciting projects, or new opportunities! I'm always
             open to meeting like-minded individuals and exploring ways we can
             leverage technology to create positive change. You can connect with
-            me on <a href="https://www.linkedin.com/in/oluwasegun-soji-john/ "target="_blank" className="linkedin-link">LinkedIn</a> or check out my work on <a href="https://github.com/Oluwasegun-rm " target="_blank">
+            me on{" "}
+            <a
+              href="https://www.linkedin.com/in/oluwasegun-soji-john/ "
+              target="_blank"
+              className="linkedin-link"
+            >
+              LinkedIn
+            </a>{" "}
+            or check out my work on{" "}
+            <a href="https://github.com/Oluwasegun-rm " target="_blank">
               Github
             </a>
             , or send me an email at email. Thanks for stopping by! 🚀
