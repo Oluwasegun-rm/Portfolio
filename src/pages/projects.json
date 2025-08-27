@@ -1,32 +1,32 @@
 [
   {
-    "title": "Oracle Process Agent",
+    "title": "Oracle ERP Process Agent",
     "tech-stack": "Oracle AI Agent Studio, Oracle Fusion API, Java, Oracle Fusion Middleware",
-    "description": "Fathom is a web app that provides real-time transcriptions of lecture recordings using the Fast Whisper model. It generates searchable transcripts and extracts key points, making it easier for users to review and identify important content. I contributed to the backend development, integrating the Fast Whisper model and building the system to handle real-time transcription and data processing. Key Features: Real-Time Transcription, Key Point Extraction and Searchable Transcripts. Fathom aims to enhance the learning experience by providing quick and accessible lecture summaries.",
-    "date": "May-August 2025"
+    "description": "During my internship at Oracle, I designed and built an AI-powered assistant for the Oracle Enterprise Scheduler Service (ESS) in Oracle ERP. The assistant enabled natural language interaction with ESS, allowing users to launch jobs, query job statuses, and parse error logs through simple English commands. By integrating Oracle Fusion APIs with conversational AI, I streamlined a process that was previously complex and UI-heavy, making job scheduling more accessible and efficient for business users. Key Features: Natural Language Job Management, Error Log Parsing, and Performance Insights. This project highlighted the value of combining enterprise systems with AI to improve usability and efficiency.",
+    "date": "May - August 2025"
   },
   {
     "title": "Fathom",
     "tech-stack": "Python, Javascript, MongoDB, Fast API, Redis",
-    "description": "During my internship at Oracle, I designed and built an AI-powered assistant for the Oracle Enterprise Scheduler Service (ESS) in Oracle ERP. The assistant enabled natural language interaction with ESS, allowing users to launch jobs, query job statuses, and parse error logs through simple English commands. By integrating Oracle Fusion APIs with conversational AI, I streamlined a process that was previously complex and UI-heavy, making job scheduling more accessible and efficient for business users. Key Features: Natural Language Job Management, Error Log Parsing, and Performance Insights. This project highlighted the value of combining enterprise systems with AI to improve usability and efficiency.",
-    "date": "February 2025"
+    "description": "Fathom is a web app that provides real-time transcriptions of lecture recordings using the Fast Whisper model. It generates searchable transcripts and extracts key points, making it easier for users to review and identify important content. I contributed to the backend development, integrating the Fast Whisper model and building the system to handle real-time transcription and data processing. Key Features: Real-Time Transcription, Key Point Extraction and Searchable Transcripts. Fathom aims to enhance the learning experience by providing quick and accessible lecture summaries.",
+    "date": "March 2025"
   },
   {
-    "title": "Geospatial Analysis of Health Disparities in Healthcare Deserts",
-    "description": "As part of a research project, I analyzed health disparities in underserved areas (healthcare deserts) using geospatial data. This project aimed to identify healthcare access issues and their correlation with various social factors, contributing to a better understanding of public health in at-risk communities. I worked with the team to collect and process large datasets, applying data visualization techniques to highlight key findings.",
-    "tech-stack": "Python, Pandas, Matplotlib, Seaborn",
+    "title": "Insight Journal",
+    "tech-stack": "Next.js, Python, FastAPI, MongoDB",
+    "description": "Insight Journal is a web application designed to help users capture, organize, and reflect on their daily thoughts and experiences. Built with Next.js for the frontend and FastAPI with MongoDB on the backend, the app provides a seamless experience for creating and managing journal entries. It includes features like rich-text editing, tagging for easy categorization, and data visualization to help users track patterns in their reflections over time. I was responsible for building the backend APIs, setting up the database, and collaborating on the frontend to deliver an intuitive and engaging journaling platform. Key Features: Journal Entry Creation, Tagging and Search, and Reflection Analytics.",
     "date": "August 2024"
+  },
+  {
+    "title": "Secure Share",
+    "tech-stack": "Flask, JavaScript, WebRTC",
+    "description": "Secure Share is a peer-to-peer web application that enables secure sharing of sensitive information, including passwords, API keys, and documents, directly between machines. Built with Flask for the backend and JavaScript with WebRTC for real-time communication, the app ensures encrypted data transfer without relying on external servers. I developed the backend to handle secure connections and integrated WebRTC for peer-to-peer communication, while also contributing to the frontend to provide a simple and intuitive interface. Key Features: Encrypted File and Secret Sharing, Real-Time Peer-to-Peer Transfer, and Support for Direct and Internet-Restricted Connections.",
+    "date": "June 2024"
   },
   {
     "title": "Semantic Knowledge Graph for Coronary Heart Disease",
     "tech-stack": "Python, Pandas, OpenAi API, Seaborn",
     "description": "This project focused on creating a semantic knowledge graph that integrates structured mortality data and unstructured clinical narratives to provide deeper insights into Coronary Heart Disease. We employed advanced natural language processing (NLP) techniques to extract meaningful patterns and trends from clinical data, contributing to more effective public health surveillance. I worked on data integration and semantic querying, helping to merge various data sources and ensure accurate analysis.",
     "date": "November 2024"
-  },
-  {
-    "title": "Personal Finance Tracker",
-    "tech-stack": "Python, Javascript, Numpy",
-    "description": "Personal Finance Tracker is a web application designed to help users manage and track their expenses, income, and overall financial health. Built using Python for the backend and JavaScript for the frontend, this tool provides users with a simple yet effective way to monitor their financial activity. The app allows users to add and categorize transactions, view real-time financial summaries, and generate visual reports for better budgeting and financial planning. I was responsible for developing the backend logic in Python to handle data storage and calculations, while also contributing to the frontend in JavaScript to create an interactive, user-friendly interface.",
-    "date": "April 2024"
   }
 ]

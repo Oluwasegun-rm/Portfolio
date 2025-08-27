@@ -1,12 +1,13 @@
 import { motion } from "framer-motion";
 export default function Skills() {
-  const arr1 = ["Python", "Javascript", "Typescript", "R"];
+  const arr1 = ["Python", "Java", "Javascript", "Typescript", "R"];
   const arr2 = ["HTML", "CSS"];
   const arr3 = [
     "Next js",
     "Pandas",
     "React",
     "Flask",
+    "FAST API",
     "Seaborn",
     "Matplotlib",
     "Mongo DB",
@@ -14,7 +15,7 @@ export default function Skills() {
     "Numpy",
     "APIs",
   ];
-  const arr4 = ["Git", "Github", "Docker", "Figma"];
+  const arr4 = ["Git", "Github", "Docker", "Figma", "Postman"];
   return (
     <>
       <div className="skills-container">
