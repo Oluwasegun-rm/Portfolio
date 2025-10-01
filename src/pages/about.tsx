@@ -19,13 +19,13 @@ export default function About() {
           <h2 className="text-theme">What I do</h2>
           <p>
             I specialize in developing robust backend systems and APIs using
-            tools like Python, JavaScript, TypeScript, and FastAPI. I also enjoy
+            tools like Python, JavaScript, TypeScript, Flask and FastAPI. I also enjoy
             working on data-driven projects that require analyzing complex
             datasets and extracting meaningful insights. Whether it's optimizing
             code for performance or solving real-world problems, I'm always
-            excited to push the boundaries of technology. Also, I am currently
+            excited to push boundaries. Also, I am currently
             an undergraduate researcher at the Machine Intelligence and Data
-            Science (MINDS) Lab (Morgan State). I work on backend web
+            Science (MINDS) Lab (at Morgan State University). I work on backend web
             development projects, building efficient systems and APIs. In
             addition, I tutor college students in programming. I have a passion
             for solving real-world problems through software and data, I'm

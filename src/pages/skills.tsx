@@ -1,6 +1,6 @@
 import { motion } from "framer-motion";
 export default function Skills() {
-  const arr1 = ["Python", "Java", "Javascript", "Typescript", "R"];
+  const arr1 = ["Python", "Javascript", "Typescript", "Java", "R"];
   const arr2 = ["HTML", "CSS"];
   const arr3 = [
     "Next js",
