@@ -39,8 +39,7 @@ export function Home() {
 
         <motion.div variants = {item} className="">
           <p className="intro-paragraph typing-container">
-            Hi I am Oluwasegun Soji-John, a Software Engineer with interests in
-            Data Science.
+            Hi I am Oluwasegun Soji-John. A software engineering enthusiast.
           </p>
         </motion.div>
 
