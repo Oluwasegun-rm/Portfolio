@@ -14,7 +14,7 @@ export default function NavBar() {
           <p>
             <b>Oluwasegun Soji-John</b>
           </p>
-          <p>Software Engineer/Data Scientist</p>
+          <p>Software Engineer</p>
         </div>
         <div className="page-container">
           <ul className="page-navigation">
